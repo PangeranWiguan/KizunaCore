@@ -1,0 +1,2 @@
+# KizunaCore
+ Kizuna Core (キズナコア)
