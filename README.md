@@ -1,6 +1,6 @@
 # KizunaCore (キズナコア)
 
-![KizunaCore Banner](assets/banner.png) <!-- Replace with your actual banner image if available -->
+![KizunaCore Banner](assets/identity/KizunaCore.png) <!-- Replace with your actual banner image if available -->
 
 **KizunaCore** is an emotional AI companion app designed to create meaningful connections through interactive chat, virtual gifts, and blockchain-powered transactions. Experience a unique bond with your virtual companion, powered by cutting-edge technology.
 
@@ -64,11 +64,7 @@ Here’s what’s coming next for **KizunaCore**:
 
 ## Contact Us
 
-We’d love to hear from you! Whether you’re interested in beta testing, funding, or just want to learn more, feel free to reach out:
-
-- Email: your-email@example.com <!-- Replace with your actual email -->
-- Website: https://yourwebsite.com <!-- Replace with your actual website -->
-- Social Media: [Twitter](https://twitter.com/yourhandle) | [Discord](https://discord.gg/yourserver) <!-- Replace with your actual links -->
+We’d love to hear from you! Whether you’re interested in beta testing, funding, or just want to learn more, feel free to reach out.
 
 ---
 
