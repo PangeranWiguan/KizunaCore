@@ -1,0 +1,52 @@
+[gd_scene load_steps=2 format=3 uid="uid://comtusk4lkl01"]
+
+[ext_resource type="VideoStream" path="res://assets/identity/KizunaCore-video-place-holder-02.ogv" id="1_w5c37"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="AspectRatioContainer" type="AspectRatioContainer" parent="."]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_right = 1080.0
+offset_bottom = 1920.0
+grow_horizontal = 2
+grow_vertical = 2
+ratio = 0.5625
+
+[node name="VideoStreamPlayer" type="VideoStreamPlayer" parent="AspectRatioContainer"]
+layout_mode = 2
+stream = ExtResource("1_w5c37")
+volume_db = -80.0
+autoplay = true
+expand = true
+loop = true
+
+[node name="Control" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_right = 1080.0
+offset_bottom = 1920.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Label" type="Label" parent="Control"]
+layout_mode = 0
+offset_top = 144.0
+offset_right = 1080.0
+offset_bottom = 252.0
+theme_override_font_sizes/font_size = 50
+text = "\"KizunaCore\" (キズナコア)"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Button" type="Button" parent="Control"]
+layout_mode = 0
+offset_left = 320.0
+offset_top = 976.0
+offset_right = 776.0
+offset_bottom = 1088.0
+theme_override_font_sizes/font_size = 50
+text = "Touch"
