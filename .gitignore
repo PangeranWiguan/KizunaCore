@@ -1,3 +1,17 @@
 # Godot 4+ specific ignores
 .godot/
 /android/
+# Ignore large model files
+/models/*.gguf
+
+# Ignore llama.cpp build artifacts
+/tools/llama.cpp/build/
+/tools/llama.cpp/bin/
+
+# Ignore compiled Python files
+__pycache__/
+*.pyc
+
+# Ignore Godot export files
+*.pck
+*.zip
